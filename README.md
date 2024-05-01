@@ -1,1 +1,1 @@
-for infinite Scrolling cheack Infinite Component
+for infinite Scrolling check Infinite Component
