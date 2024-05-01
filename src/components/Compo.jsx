@@ -2,55 +2,20 @@ import React from "react";
 
 function Compo() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flex: 1,
-        flexWrap: "wrap",
-        gap: 4,
-      }}
-    >
-      <div style={{ height: "200px", width: "200px", backgroundColor: "red" }}>
-        BOX1
-      </div>
-      <div
-        style={{
-          height: "200px",
-          width: "200px",
-          backgroundColor: "orangered",
-        }}
-      >
-        {" "}
-        BOX2
-      </div>
-      <div
-        style={{ height: "200px", width: "200px", backgroundColor: "green" }}
-      >
-        BOX2
-      </div>
-      <div
-        style={{ height: "200px", width: "200px", backgroundColor: "yellow" }}
-      >
-        BOX3
-      </div>
-      <div
-        style={{
-          height: "200px",
-          width: "200px",
-          backgroundColor: "blueviolet",
-        }}
-      >
-        BOX4
-      </div>
-      <div style={{ height: "200px", width: "200px", backgroundColor: "blue" }}>
-        BOX4
-      </div>
-      <div
-        style={{ height: "200px", width: "200px", backgroundColor: "orange" }}
-      >
-        BOX5
-      </div>
-    </div>
+    <div class="cards">
+    <div class="card">ONE</div>
+<div class="card">TWO</div>
+<div class="card">THREE</div>
+<div class="card">FOUR</div>
+<div class="card">FIVE</div>
+<div class="card">SIX</div>
+<div class="card">SEVEN</div>
+<div class="card">EIGHT</div>
+<div class="card">NINE</div>
+<div class="card">TEN</div>
+<div class="card">ELEVEN</div>
+<div class="card">TWELVE</div>
+</div>
   );
 }
 
